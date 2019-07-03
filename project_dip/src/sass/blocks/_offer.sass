@@ -1,0 +1,296 @@
+.offer
+  margin-bottom: 32px
+  &-block
+    display: flex
+    flex-wrap: wrap
+ 
+  &__title
+    width: 270px
+    height: 29px
+    color: #000000
+    font-family: "Proxima Nova Bold"
+    font-size: 36px
+    font-weight: 400
+    margin: 80px auto
+    &:after
+      display: block
+      content: ""
+      background-color: $botton-color
+      width: 30px
+      height: 2px
+      margin: auto
+      margin-top: 20px
+  &__sabtitle
+    width: 575px
+    height: 17px
+    color: #000000
+    font-size: 20px
+    font-weight: 300
+    margin: auto
+    margin-bottom: 120px
+  &__button
+    display: block
+    width: 230px
+    height: 55px
+    border: 1px solid #aeaeae 
+    opacity: 0.2
+    background-color: #ffffff
+    color: #000000
+    font-family: "Proxima Nova - Semibold"
+    font-size: 13px
+    text-transform: uppercase
+    letter-spacing: 0.33px
+    font-size: 15px
+    letter-spacing: 0.38px
+    margin: 57px 
+    margin-left: 80px
+    margin-right: 48px
+    
+    &:hover
+      width: 260px
+      height: 60px
+      background-color: #23bac1
+      color: #ffffff
+      font-family: "Proxima Nova - Semibold"
+      font-size: 15px
+      font-weight: 400
+      text-transform: uppercase
+      letter-spacing: 0.38px
+      margin-left: 60px
+      margin-bottom: 43px
+      opacity: 1.2
+      
+
+
+  &__descriptions
+    color: #000000
+    font-family: "Proxima Nova"
+    font-size: 20px
+  &-them 
+    width: 370px
+    height: 720px
+    background-color: #ffffff
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-right: 20px
+    margin-top: 30px
+    transition: 0.2s
+    &:hover
+      box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1)
+      .offer-img:before
+        opacity: 1
+      .offer__img3:before
+        display: block
+        opacity: 1 
+      .offer__img2:before
+        display: block
+        opacity: 1   
+      .offer__img1:before
+        display: block
+        opacity: 1  
+      .offer__img4:before
+        display: block
+        opacity: 1     
+      .offer__img5:before
+        display: block
+        opacity: 1     
+      .offer__img6:before
+        display: block
+        opacity: 1     
+             
+       
+
+
+
+
+  &__text
+    display: flex
+    flex-direction: column
+    align-items: center
+    height: 224px
+    color: #000000
+    font-family: "Proxima Nova"
+    font-size: 16px
+    line-height: 40px
+    
+
+  &-img
+    margin-bottom: 10px
+
+ 
+    
+  &__img3
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 94%
+      background-image: url("../img/icon_3.2.png") 
+      opacity: 0
+    
+  &__img2
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 94%
+      background-image: url("../img/icon_2.2.png") 
+      opacity: 0  
+      transition: 0.2s
+
+  &__img1
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 94%
+      background-image: url("../img/icon_1.1.png") 
+      opacity: 0  
+      transition: 0.2s   
+  &__img4
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 94%
+      background-image: url("../img/icon_4.4.png") 
+      opacity: 0   
+      transition: 0.2s
+  &__img5
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 94%
+      background-image: url("../img/icon_5.5.png") 
+      opacity: 0  
+      transition: 0.2s
+  &__img6
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 94%
+      background-image: url("../img/icon_6.6.png") 
+      opacity: 0    
+      transition: 0.2s    
+
+  
+     
+  &_text
+    width: 234px
+    height: 98px
+    color: #000000
+    font-family: "Proxima Nova"
+    font-size: 16px
+    font-weight: 300
+    line-height: 21px
+    text-align: center
+    margin-bottom: 106px
+    margin-top: 24px
+  &_text11 
+    width: 234px
+    height: 98px
+    color: #000000
+    font-family: "Proxima Nova"
+    font-size: 16px
+    font-weight: 300
+    line-height: 21px
+    text-align: center
+    margin-bottom: 133px
+    margin-top: 24px 
+  
+
+li
+  &:after
+      display: block
+      content: ""
+      background-color: $botton-color
+      width: 10px
+      height: 2px
+      margin: auto
+  &:last-child
+    &:after
+      display: none
+    
+@media (max-width : 1200px)
+  .offer-block
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+
+  .offer-them
+    display: flex
+    
+    flex-basis: 35%
+    margin-bottom: 100px 
+
+
+
+
+
+@media (max-width : 991px)
+  .contener
+    width: 800px
+  .offer-block
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+  .offer-them
+    position: relative
+    display: flex
+    flex-basis: 35%
+    margin-bottom: 100px  
+    height: 960px
+  .offer__text
+    font-size: 25px
+    text-align: center
+  .offer_text11
+    font-size: 20px
+    text-align: center 
+    margin-right: 90px 
+  .offer__text1
+    margin-left: 90px
+  .offer__button
+    position: absolute
+    top: 790px
+    left: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+    
